@@ -5,3 +5,4 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 CMD ["python", "main.py"]
+# Force redeploy - 2026-05-22
